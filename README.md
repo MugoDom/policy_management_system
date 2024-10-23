@@ -60,7 +60,6 @@ policy-management-system/
 └── requirements.txt  # List of dependencies for the project
 
 
-
 ### Usage
 
 #### Policyholder Management:
@@ -79,6 +78,9 @@ policy-management-system/
 * Create and process payments.
 * Send reminders for unpaid invoices.
 * Apply penalties for late payments.
+
+### Deployment
+The app has been deployed as a streamlit app available here: [https://yaspi-policy-management-system.streamlit.app/]
 
 ### Customization
 This systems can be extended by adding new features, such as advanced search,reporting etc
