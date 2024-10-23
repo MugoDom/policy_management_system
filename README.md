@@ -46,18 +46,19 @@ streamlit run main.py
 ### Folder Structure
 
 policy-management-system/
-├── images/                    # Folder for images (e.g., cover image)
+├── images/  # Folder for images (e.g., cover image)
 │   └── cover.png
-├── __pycache__/                # Python bytecode cache (auto-generated)
+├── __pycache__/  # Auto-generated Python bytecode cache
 │   ├── payments.cpython-39.pyc
 │   ├── policyholder.cpython-39.pyc
 │   └── product.cpython-39.pyc
-├── main.py                     # Main entry point for the Streamlit app
-├── payments.py                 # Payment management class and methods
-├── policyholder.py             # Policyholder management class and methods
-├── product.py                  # Product management class and methods
-├── README.md                   # Project documentation (this file)
-└── requirements.txt            # List of dependencies for the project
+├── main.py  # Main entry point for the Streamlit app
+├── payments.py  # Payment management class and methods
+├── policyholder.py  # Policyholder management class and methods
+├── product.py  # Product management class and methods
+├── README.md  # Project documentation (this file)
+└── requirements.txt  # List of dependencies for the project
+
 
 
 ### Usage
