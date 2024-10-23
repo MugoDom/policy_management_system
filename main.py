@@ -14,14 +14,13 @@ if __name__ == "__main__":
 
     # Product management operations
     product1 = Product_Management(101, "Laptop", 1500.00)
-    product1.create()
-    product1.update(new_name="Gaming Laptop", new_price=1800.00)
-    product1.remove()
+    product1.create_product()
+    product1.update_product(new_name="Gaming Laptop", new_price=1800.00)
+    product1.remove_product()
 
     # Payment operations
     payment1 = Payment(1001, 500, penalty_amount=50, status="Unpaid")
-    payment1.send_reminder()
-    payment1.apply_penalty()
+    payment1.reminder()
+    payment1.penalty()
     payment1.process_payment()
 
-    
