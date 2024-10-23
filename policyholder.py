@@ -4,16 +4,29 @@ class Policyholder:
         self.policyholder_id = policyholder_id
         self.fname = fname
         self.lname = lname
-        self.email = fname + '.' + lname + '@email.com'
+        self.email = f"{fname.lower()}.{lname.lower()}@email.com"
         self.address = address
         self.status = status
 
-    def register(self):
-        pass
+    @classmethod
+    def register(cls, policyholder_id, fname, lname, address):
+        """""
+        class method to create a new policy holder
+        """""
+        return cls(policyholder_id, fname, lname, address)
 
     def suspend(self):
-        pass
+        if self.status == 'Active':
+            self.status = 'Suspend'
+            print(f"Policyholder {self.fname} {self.lname} has been suspended.")
+        else:
+            print(f"Policyholder {self.fname} {self.lname} is already suspended.")
+    
 
     def reactivate(self):
-        pass
+        if self.status == 'Suspended':
+            self.status = 'Active'
+            print(f"Policyholder {self.fname} {self.lname} has been reactivated.")
+        else:
+            print(f"Policyholder {self.fname} {self.lname} is already active.")
 
