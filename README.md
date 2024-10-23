@@ -61,7 +61,7 @@ streamlit run main.py
 * Suspend or reactivate an existing policyholder.
 * View detailed information for each policyholder, including products and payments.
 
-#### Product Management:
+#### Product Management:
 
 * Create a new product (product ID, name, price).
 * Link the product to a policyholder.
@@ -79,7 +79,7 @@ This systems can be extended by adding new features, such as advanced search,rep
 Feel free to contribute by submitting a pull request or opening an issue on GitHub. Any contributions to improve the system are welcome.
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ### Contact
 For any questions or suggestions, feel free to reach out via email: [njuemugodominic@gmail.com]
