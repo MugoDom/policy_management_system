@@ -44,7 +44,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 ### Folder Structure
-* policy-management-system/
+policy-management-system/
 │
 ├── main.py                # Main Streamlit app
 ├── policyholder.py         # Policyholder class with register, suspend, and reactivate methods
