@@ -8,12 +8,8 @@ class Policyholder:
         self.address = address
         self.status = status
 
-    @classmethod
-    def register(cls, policyholder_id, fname, lname, address):
-        """""
-        class method to create a new policy holder
-        """""
-        return cls(policyholder_id, fname, lname, address)
+    def register(self):
+        print(f"Policyholder {self.fname} {self.lname} registered successfully with ID: {self.policyholder_id}.")
 
     def suspend(self):
         if self.status == 'Active':
