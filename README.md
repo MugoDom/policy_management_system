@@ -5,7 +5,8 @@
 This project is a simple mock-up for Yaspi insurance's policy management system to manage policyholders, products, and payments. The system allows policy managers to perform various tasks, such as adding and suspending policyholders, registering new members, and managing policy products. The simple application allows the system users to manage the members information. 
 
 ### Features
-#### Policyholder Management:
+
+#### Policyholder Management:
 * Register new policyholders.
 * Suspend and reactivate policyholders.
 * View detailed information about policyholders, including linked products and payments.
@@ -53,6 +54,7 @@ streamlit run main.py
 └── requirements.txt        # Python dependencies
 
 ### Usage
+
 #### Policyholder Management:
 
 * Register a new policyholder with their details (first name, last name, address).
