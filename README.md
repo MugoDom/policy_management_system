@@ -44,37 +44,20 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 ### Folder Structure
+
 policy-management-system/
-│
-├── main.py                 # Main Streamlit app
-├── policyholder.py         # Policyholder class with register, suspend, and reactivate methods
-├── product.py              # Product class with create, update, and remove methods
-├── payment.py              # Payment class with payment processing and penalties
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
-
-
-.
-├── build                   # Compiled files (alternatively `dist`)
-├── docs                    # Documentation files (alternatively `doc`)
-├── src                     # Source files (alternatively `lib` or `app`)
-├── test                    # Automated tests (alternatively `spec` or `tests`)
-├── tools                   # Tools and utilities
-├── LICENSE
-└── README.md
-
-├── README.md
-├── __pycache__
-│   ├── payments.cpython-39.pyc
-│   ├── policyholder.cpython-39.pyc
-│   └── product.cpython-39.pyc
-├── images
-│   └── cover.png
-├── main.py
-├── payments.py
-├── policyholder.py
-├── product.py
-└── requirements.txt
+├── images/                    # Folder for images (e.g., cover image)
+│   └── cover.png
+├── __pycache__/                # Python bytecode cache (auto-generated)
+│   ├── payments.cpython-39.pyc
+│   ├── policyholder.cpython-39.pyc
+│   └── product.cpython-39.pyc
+├── main.py                     # Main entry point for the Streamlit app
+├── payments.py                 # Payment management class and methods
+├── policyholder.py             # Policyholder management class and methods
+├── product.py                  # Product management class and methods
+├── README.md                   # Project documentation (this file)
+└── requirements.txt            # List of dependencies for the project
 
 
 ### Usage
