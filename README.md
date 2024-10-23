@@ -63,6 +63,20 @@ policy-management-system/
 ├── LICENSE
 └── README.md
 
+├── README.md
+├── __pycache__
+│   ├── payments.cpython-39.pyc
+│   ├── policyholder.cpython-39.pyc
+│   └── product.cpython-39.pyc
+├── images
+│   └── cover.png
+├── main.py
+├── payments.py
+├── policyholder.py
+├── product.py
+└── requirements.txt
+
+
 ### Usage
 
 #### Policyholder Management:
