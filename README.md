@@ -44,7 +44,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 ### Folder Structure
-
+```bash
 policy-management-system/
 ├── images/  # Folder for images (e.g., cover image)
 │   └── cover.png
@@ -58,7 +58,7 @@ policy-management-system/
 ├── product.py  # Product management class and methods
 ├── README.md  # Project documentation (this file)
 └── requirements.txt  # List of dependencies for the project
-
+```
 
 ### Usage
 
