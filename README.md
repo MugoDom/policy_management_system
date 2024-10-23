@@ -46,12 +46,22 @@ streamlit run main.py
 ### Folder Structure
 policy-management-system/
 │
-├── main.py                # Main Streamlit app
+├── main.py                 # Main Streamlit app
 ├── policyholder.py         # Policyholder class with register, suspend, and reactivate methods
 ├── product.py              # Product class with create, update, and remove methods
 ├── payment.py              # Payment class with payment processing and penalties
 ├── README.md               # Project documentation
 └── requirements.txt        # Python dependencies
+
+
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
 
 ### Usage
 
