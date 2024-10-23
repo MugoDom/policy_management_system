@@ -46,7 +46,7 @@ streamlit run main.py
 ### Folder Structure
 ```bash
 policy-management-system/
-├── images/  # Folder for images (e.g., cover image)
+├── images/  # Folder for images
 │   └── cover.png
 ├── __pycache__/  # Auto-generated Python bytecode cache
 │   ├── payments.cpython-39.pyc
@@ -56,7 +56,7 @@ policy-management-system/
 ├── payments.py  # Payment management class and methods
 ├── policyholder.py  # Policyholder management class and methods
 ├── product.py  # Product management class and methods
-├── README.md  # Project documentation (this file)
+├── README.md  # Project documentation
 └── requirements.txt  # List of dependencies for the project
 ```
 
