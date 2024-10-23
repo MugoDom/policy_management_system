@@ -7,13 +7,15 @@ class Policyholder:
         self.email = f"{fname.lower()}.{lname.lower()}@email.com"
         self.address = address
         self.status = status
+        self.products = []
+        self.payments = []
 
     def register(self):
         print(f"Policyholder {self.fname} {self.lname} registered successfully with ID: {self.policyholder_id}.")
 
     def suspend(self):
         if self.status == 'Active':
-            self.status = 'Suspend'
+            self.status = 'Suspended'
             print(f"Policyholder {self.fname} {self.lname} has been suspended.")
         else:
             print(f"Policyholder {self.fname} {self.lname} is already suspended.")
@@ -26,3 +28,10 @@ class Policyholder:
         else:
             print(f"Policyholder {self.fname} {self.lname} is already active.")
 
+    def add_product(self, product):
+        
+        self.products.append(product)
+
+    def add_payment(self, payment):
+        
+        self.payments.append(payment)
