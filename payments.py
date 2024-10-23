@@ -1,7 +1,8 @@
 class Payment():
     def __init__(self, payment_id, payment_amount, penalty_amount = 0, status = "Paid"):
         self.payment_id = payment_id
-        self.paymment_amount = payment_amount
+        self.payment_amount = payment_amount
+        self.penalty_amount = penalty_amount
         self.status = status
 
     def process_payment(self):
